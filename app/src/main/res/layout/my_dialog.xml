@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/eTx1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="Enter first member" />
+
+    <EditText
+        android:id="@+id/eTd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="Enter q/d of the series:" />
+
+    <Switch
+        android:id="@+id/swType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mathmatical/Geometric"
+        android:textSize="20sp" />
+</LinearLayout>
